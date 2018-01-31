@@ -1,0 +1,609 @@
+/*
+    Document   : app_style.css
+Author     : Bankoleadegboye    
+Description: External style sheet for the application.
+*/
+
+
+/* The side navigation menu */
+/*index*/
+/*logo in navbar*/
+nav div div a img {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    width: 30px;
+}
+
+#homeImage img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto; 
+}
+.container .custom-option {
+    padding-left: px;
+}
+.container .custom-button input[type=submit], .container .ship-button input[type=button]{
+    background: #195dee;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.container .custom-button input[type=submit]:hover, .container .ship-button input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    
+}
+
+/*footer*/
+#footer {
+    height: 20px;
+    font-size: 80%;
+    color: #444444;
+    text-align: center;
+    padding-top: 7px;
+
+
+}
+
+/*search bar*/
+.search {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+}
+
+/*FAQS*/
+.faq_question {
+        font-size: 20px;
+	margin: 0px;
+	padding: 20px 0px 20px 50px;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.mqcu {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.faq_answer_container {
+	height: 0px;
+	overflow: hidden;
+	padding: 0px;
+}
+
+
+/*table styling*/
+table.booklist {
+    width: 100%;
+    border-collapse: collapse;
+    font: 12px/18px Arial, Sans-serif;
+    margin: 5px 0;
+}
+
+table.booklist th {
+    background-color: #4674c9;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+table.booklist td {
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    vertical-align: top;
+}
+table.booklist th.col1 {
+
+}
+
+table.booklist th.col2 {
+    width: 250px;
+}
+
+table.booklist th.col3 {
+    width: 150px;
+}
+
+table.booklist th.col4 {
+    width: 60px;
+}
+
+
+table.booklist tr:nth-child(even) {
+    background-color: #FFFFF;
+}
+
+/* styles of the book details table */
+table.bookdetails {
+    width: 100%;
+    border-collapse: collapse;
+    font: 12px/18px Arial, Sans-serif;
+    margin: 5px 0;
+}
+
+table.bookdetails td {
+    vertical-align: top;
+}
+
+table.bookdetails h4, table.bookdetails p {
+    margin: 0px 0px 5px 10px;
+}
+
+table.bookdetails td.col1 {
+    width: 180px;
+}
+
+table.bookdetails td.col1 img {
+    width: 160px;
+}
+
+table.bookdetails td.col2 {
+    width: 120px;
+}
+
+table.bookdetails td.col3 {
+    width: 500px;
+}
+
+table.bookdetails td.col4 {
+    padding-left: 25px;
+    vertical-align: top;
+}
+
+table.bookdetails td.col4 img{
+    border: none;
+    width: 100px;
+}
+
+/* img view of table */
+.wrapper {
+    display: inline-block;
+    position:relative;
+    zoom: 1;
+    width: 23%;
+    height: auto;
+    text-align: center;
+}
+#main-header {
+   
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.img_display 
+{
+    display: relative;
+    padding-right:4px;
+    padding-bottom: 1px;
+        margin-left:100px;
+
+    zoom: 1;
+    width:  200px;
+    height: 200px;
+    
+
+}
+
+.img_display:hover{
+    opacity: .1
+}
+
+
+.img_wall {
+    display: block;
+    margin-right: 0px;
+    margin-top: 75px;
+}
+
+.text {
+    position: absolute;
+    font-size: 10px;
+    color:red;
+    top: 60%;
+    margin-left:100px;
+    visibility:hidden;
+
+}
+
+.wrapper:hover .text {
+    visibility:visible;
+}
+
+/* details css */
+.img_details {
+    display: block;
+    margin-top: 29px;
+    padding-right: 20px;
+    float: left;
+    max-width: 57%;
+    height: auto; 
+}
+
+table.shiplist {
+    width: 20%;
+}
+
+.bookstore-button.delete-confirmed {
+    display: none;
+}
+
+.bookstore-button.delete-initial span,
+.bookstore-button.delete-confirmed span {
+    color: red;
+    font: 12px/18px Arial, Sans-serif;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/* carousel */
+#quote-carousel 
+{
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+    left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+    right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+    background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+    background: #333333;
+}
+#quote-carousel img
+{
+    width: 250px;
+    height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=password],
+.form-style-1 input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    outline: none;  
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=password]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #195dee;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+
+}
+.form-style-1 .required{
+    color:red;
+}
+
+/*Forms*/
+.Fcontain input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+.Fcontain {
+    width: 500px;
+    height: 500px;
+    margin:auto;
+
+}
+
+.Fcontain  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+textArea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.Fcontain .button {
+    margin: auto;
+    width: 150px;
+    height: 100px;
+};
+
+
+/*search*/
+.search {
+    display: inline-block;
+    position:relative;
+    zoom: 1;
+    width: 33%;
+    height: auto;
+    text-align: left;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 0px;
+    position:relative;
+    zoom: 1;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+.top {
+    display: block;
+    margin-right: 0px;
+    margin-left:1%;
+    margin-top:0px;
+    display: flex;
+}
+
+.all p{
+    display:inline;
+    word-wrap: break-word;
+
+}
+
+#delete-buttons {
+    color: #337ab7;
+}
+
+#delete-buttons:hover {
+    color: red;
+    cursor:pointer;
+}
+
+.sbar {
+    padding: 4px;
+}
+.small {
+    display: inline;
+    
+    width: 400px;
+
+
+}
+
+#shiplist {
+    float:left;
+    display: inline;
+    width: 60%;
+    padding-right: 50px;
+
+}
+
+shipstore-button {
+    
+    margin-bottom: 0px;
+
+}
+/* style for the search bar */
+#searchbar {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+    position: relative;
+    border: #bbb 1px solid;
+    border-radius: 0px;
+
+}
+
+#searchbar input{
+    border: none;
+}
+
+#searchbar input[type="text"] {
+    width: 155px;
+    padding-left: 8px;
+    font-size: 0.8em;
+    color: #444;
+}
+
+#searchbar input[type="text"]:focus {
+    outline: none;
+}
+
+#searchbar input[type="submit"]{
+    border-left: 1px solid #fff;
+    padding: 0;
+    width: 24px;
+    height: 19px;
+    text-align: center;
+    background-color: #eee;
+}
+
+#searchbar input[type="submit"]:hover{
+    border-left: 1px solid #999;
+    background-color: #c7f2fd;
+}
+/*--  Add ship style page  --*/
+.container .ship-button input[type=submit], .container .ship-button input[type=button]{
+    background: #195dee;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.container .ship-button input[type=submit]:hover, .container .ship-button input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    
+}/* styles for the suggestion div block and the spans in it*/
+#suggestionDiv {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    right: -1px;
+    background-color: #fff;
+    font-size: 0.85em;
+    z-index: 9999;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: 2px 10px 12px 2px rgba(0,0,0,.175);
+}
+
+#suggestionDiv span {
+    display: block;
+    padding: 4px 3px 4px 10px;
+    cursor: default;
+    min-width: 178px;
+    white-space: nowrap;
+}
+
+#suggestionDiv span:hover {
+    background-color: #F5DEB3;
+}
+
+
+#add-button {
+    width: 100%;
+    height: 50px;
+}
+
